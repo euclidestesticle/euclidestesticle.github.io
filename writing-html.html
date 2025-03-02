@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing - Your Website</title>
+    <style>
+        /* Base styles */
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        /* Header styles */
+        header {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 2rem;
+        }
+        
+        nav li {
+            margin: 0;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Main content styles */
+        main {
+            min-height: 70vh;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        /* Footer styles */
+        footer {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid #ddd;
+            font-size: 0.9rem;
+            color: #666;
+        }
+        
+        /* Writing list styles */
+        .writing-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .writing-list li {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .writing-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .writing-list a {
+            font-weight: bold;
+            text-decoration: none;
+            color: #333;
+            font-size: 1.2rem;
+        }
+        
+        .writing-list a:hover {
+            text-decoration: underline;
+        }
+        
+        .writing-list .date {
+            color: #888;
+            font-size: 0.9rem;
+            display: block;
+            margin-top: 0.3rem;
+        }
+        
+        .writing-list .summary {
+            margin-top: 0.5rem;
+        }
+        
+        .categories {
+            margin-top: 0.5rem;
+            font-size: 0.9rem;
+        }
+        
+        .category {
+            display: inline-block;
+            background-color: #f0f0f0;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            margin-right: 0.5rem;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-site.html">About Site</a></li>
+                    <li><a href="about-me.html">About Me</a></li>
+                    <li><a href="writing.html">Writing</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <h1>Writing</h1>
+            <p>A collection of my essays and written pieces.</p>
+            
+            <ul class="writing-list">
+                <!-- Example essay entry - duplicate and modify for each new piece -->
+                <li>
+                    <a href="essays/example-essay.html">Example Essay Title</a>
+                    <span class="date">March 2, 2025</span>
+                    <div class="summary">A brief summary of what this essay is about and why someone might want to read it.</div>
+                    <div class="categories">
+                        <span class="category">Category 1</span>
+                        <span class="category">Category 2</span>
+                    </div>
+                </li>
+                
+                <!-- Add more entries as you write more pieces -->
+                <li>
+                    <a href="essays/another-essay.html">Another Essay Title</a>
+                    <span class="date">February 15, 2025</span>
+                    <div class="summary">This is where you'd put a brief description of this essay to entice readers.</div>
+                    <div class="categories">
+                        <span class="category">Category 3</span>
+                    </div>
+                </li>
+            </ul>
+        </main>
+        
+        <footer>
+            <p>© 2025 Your Name. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
